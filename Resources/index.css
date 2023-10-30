@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+}
+
+/* nav bar for the home page only */
+
+#nav_bar, #nav_bar li, #nav_bar li a, #logo img {
+    background: transparent;
+    color: antiquewhite;
+}
+
+/* Set up the grid */
+
+.grid {
+    display: grid;
+    grid-template: repeat(32 1fr) / repeat(19 1fr);
+}
+
+/* Headline picture and headline title */
+
+#headline {
+    display: grid;
+    grid-area: 1 / 1 / span 6 / span 19;
+    background-image: url(../Resources/DSC02990-Edit-Edit.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    position: relative;
+    max-width: 100%;
+    margin: 0;
+}
+
+#headline h1 {
+    position: absolute;
+    background: transparent;
+    font-family: 'Poiret One', cursive;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    top: 75%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#headline img {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    z-index: 0;
+    visibility: hidden;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/* Welcome box */
+
+#welcome {
+    display: grid;
+    grid-area: 6 / 2 / span 3 / span 4;
+    background-color: #7d807e;
+    text-align: center;
+    z-index: 1;
+}
+
+#welcome span {
+    font-family: 'Beau Rivage', cursive;
+    font-size: 3rem;
+    background-color: #7d807e;
+}
+
+#welcome p {
+    background-color: #7d807e;
+    color: antiquewhite;
+    margin: 0;
+    padding: 5%;
+}
+
+#welcome_title {
+    font-family: 'Beau Rivage', cursive;
+}
+
+#welcome_image {
+    display: grid;
+    grid-area: 8 / 5 / span 6 / span 15;
+}
+
+#welcome_image img {
+    margin: 0;
+}
+
+/* About me section */
+
+#about_me_image {
+    display: grid;
+    grid-area: 16 / 2 / span 6 / span 5;
+    align-self: center;
+    margin-top: 30px;
+}
+
+#about_me_image img {
+    margin: 0;
+    opacity: 0.9;
+}
+
+#about_me_text {
+    display: grid;
+    grid-area: 16 / 7 / span 6 / span 12;
+}
+
+#about_me_text h2 {
+    align-self: center;
+}
+
+#about_me_text h2 {
+    font-family: 'Beau Rivage', cursive;
+    margin-bottom: 0;
+}
+
+#about_me_text p {
+    background-color: #FFF5E6;
+    padding: 5%;
+    margin: 0;
+}
+
+/* Gallery section */
+
+#gallery_title {
+    display: grid;
+    grid-area: 23 / 1 / span 1 / span 19;
+    align-content: stretch;
+}
+
+#gallery_title h2 {
+    font-family: 'Beau Rivage', cursive;
+}
+
+#sports_image, #equine, #wedding {
+    display: grid;
+    justify-content: space-evenly;
+}
+
+#wedding {
+    grid-area: 25 / 1 / span 6 / span 5;
+    align-items: center;
+}
+
+#sports_image {
+    grid-area: 25 / 13 / span 6 / span 5;
+    align-items: center;
+}
+
+#equine {
+    grid-area: 33 / 1 / span 6 / span 5;
+    align-items: center;
+}
+
+#sports_title, #equine_title, #wedding_title {
+    display: grid;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+#wedding_title {
+    grid-area: 32 / 1 / span 1 / span 5;
+}
+
+#sports_title {
+    grid-area: 32 / 13 / span 1 / span 5;
+}
+
+#equine_title {
+    grid-area: 39 / 1 / span 1 / span 5;
+}
+
+@media screen and (max-width: 600px) {
+    #headline {
+        top: 66px;
+    }
+
+    #headline {
+        grid-area: 1 / 1 / span 6 / span 4;
+    }
+
+    #welcome {
+        grid-area: 7 / 2 / span 3 / span 2;
+    }
+
+    #welcome_image {
+        display: none;
+    }
+
+    #about_me_image {
+        grid-area: 11 / 1 / span 1 / span 4;
+    }
+
+    #about_me_text {
+        grid-area: 12 / 1 / span 1 / span 4;
+    }
+
+    #gallery_title {
+        grid-area: 13 / 1 / span 1 / span 4;
+    }
+
+    #wedding {
+        grid-area: 14 / 1 / span 1 / span 4;
+    }
+
+    #wedding_title {
+        grid-area: 15 / 1 / span 1 / span 4;
+    }
+
+    #sports_image {
+        grid-area: 16 / 1 / span 1 / span 4;
+    }
+
+    #sports_title {
+        grid-area: 17 / 1 / span 1 / span 4;
+    }
+
+    #equine {
+        grid-area: 18 / 1 / span 1 / span 4;
+    }
+
+    #equine_title {
+        grid-area: 19 / 1 / span 1 / span 4;
+    }
+}
