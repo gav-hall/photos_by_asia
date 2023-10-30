@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Photos by Asia - Sports</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="./Resources/logo.png">
+        <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Poiret+One&display=swap" rel="stylesheet">
+        <link href="./Resources/gallery.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="./Scripts/scripts.js"></script>
+    </head>
+
+    <!-- Navigation bars. Same across all pages except the home page -->
+
+    <nav>
+        <ul id="nav_bar">
+            <li id="logo"><img src="./Resources/logo.png"></li>
+            <li><a href='./index.html'>Home</a></li>
+            <li><a href='./equine.html'>Equine</a></li>
+            <li><a href='./sports.html'>Sports</a></ll>
+            <li><a href='#'>Weddings</a></li>
+            <li><a href='#footer'>Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Navigation for mobile browsers-->
+    <ul id="mobile_nav">
+        <li><a href="javascript:void(0);" class="icon" onclick="revealNav()">
+            <i class="fa fa-bars"></i><span>Photos by Asia</span>
+            </a>
+        </li>
+
+        <div id="links">
+            <li><a href='./index.html'>Home</a></li>
+            <li><a href='./equine.html'>Equine</a></li>
+            <li><a href='./sports.html'>Sports</a></ll>
+            <li><a href='#'>Weddings</a></li>
+            <li><a href='#footer' onclick="hideNav()">Contact</a></li>
+        </div>
+    </ul> 
+
+    <!-- Page Title -->
+
+    <header>
+        <h1>Weddings</h1>
+    </header>
+
+    <!-- About the gallery to be viewed-->
+
+    <body oncontextmenu="return false">
+        <div class="about">
+            <p>
+                I'm not just a photographer: I'm a storyteller. Your wedding day is all 
+                about your unique tale, and I'm here to capture every magical moment! I'm 
+                all about natural, candid shots that showcase your genuine emotions. I keep 
+                portrait time short, so you can cherish moments with loved ones. <br><br>
+                My approach is relaxed, friendly, and void of awkward poses! I want you to 
+                feel at ease while I work my magic. I focus on you, your guests, and the 
+                intricate details you've poured your heart into. <br><br>
+                Your story deserves to be told vibrantly. If this excites you, check out 
+                my wedding packages! <br><br>
+                <a class="contact" href="#pricing">Find out more</a>
+            </p>
+        </div>
+
+    <!-- Columns of images for the gallery divided into sections -->
+
+        <div class="row">
+            <div class="column">
+                <img src="./Resources/Wedding/DSC04996.jpg">
+                <img src="./Resources/Wedding/DSC05294.jpg">
+                <img src="./Resources/Wedding/DSC05073.jpg">
+            </div>
+                
+            <div class="column">
+                <img src="./Resources/Wedding/DSC05103.jpg">
+                <img src="./Resources/Wedding/DSC05201.jpg">
+                <img src="./Resources/Wedding/DSC05580-2.jpg">
+            </div>
+
+            <div class="column">
+                <img src="./Resources/Wedding/DSC06165.jpg">
+                <img src="./Resources/Wedding/DSC06262.jpg">
+                <img src="./Resources/Wedding/DSC06649.jpg">
+            </div>
+
+            <div class="column">
+                <img src="./Resources/Wedding/DSC07189.jpg">
+                <img src="./Resources/Wedding/DSC06782.jpg">
+                <img src="./Resources/Wedding/DSC05955.jpg">
+            </div>
+        </div>
+
+    <!-- Prices and contact me section -->
+
+        <h2>Pricing</h2>
+        <div class="package_intro">
+            <p>I have three main packages which are shown below, but 
+               each one can be tailored to your needs to make a completely 
+               bespoke experience. Every package includes your initial 
+               consultation, and as many chats you might need along the way 
+               to provide any help or advice to make your day as perfect as it can be. 
+            </p>
+        </div>
+        <div id="pricing">
+            <div class="packages" id="package1">
+                <h3><strong>Bronze Package</strong><br><br>from &pound350</h3>
+                <ul>
+                    <li>initial consultation</li>
+                    <li>coverage from ceremony through to first dance (around 5 hours)</li>
+                    <li>gallery delivered on a USB drive</li>
+                    <li>wedding day photo preview within 48h </li>
+                </ul>
+            </div>
+            <div class="packages" id="package2">
+                <h3><strong>Silver Package</strong><br><br>from &pound500</h3>
+                <ul>
+                    <li>initial consultation</li>
+                    <li>coverage of bridal prep through to first dance (around 8 hours)</li>
+                    <li>gallery delivered on a USB drive</li>
+                    <li>wedding day photo preview within 24h </li>
+                </ul>
+            </div>
+            <div class="packages" id="package3">
+                <h3><strong>Gold Package</strong><br><br>from &pound800</h3>
+                <ul>
+                    <li>initial consultation</li>
+                    <li>engagement photoshoot</li>
+                    <li>coverage from bridal prep through to late (around 11h)</li>
+                    <li>gallery delivered on a USB drive</li>
+                    <li>private online gallery to share with friends and family</li>
+                    <li>wedding day photo preview within 24h </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+
+    <div id="footer">
+        <h3>Let's connect!</h3>
+        <p>
+            Drop me an email with your query and I'll get back to you as soon as poosible.
+            <br><br>
+            <a href="mailto:info@photosbyasia.com">info@photosbyasia.com</a>
+        </p>
+        <p>Alternatively, connect with me on Social Media</p>
+        <div class="socials">
+            <a href="https://www.facebook.com/people/Asia-Wozniewska/100093083481595/" target="_blank"><img src="./Resources/facebook.png"></a>
+            <a href="https://instagram.com/asia.wozniewska?igshid=MzRIODBiNWFIZA==" target="_blank"><img src="./Resources/insta.png"></a>
+        </div>
+        <p>&copy 2023 Photos by Asia Wozneiwska</p>
+    </div>
+
+</html>

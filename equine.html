@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Photos by Asia - Equine</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="./Resources/logo.png">
+        <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Poiret+One&display=swap" rel="stylesheet">
+        <link href="./Resources/gallery.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="./Scripts/scripts.js"></script>
+    </head>
+
+    <!-- Navigation bars. Same across all pages -->
+
+    <nav>
+        <ul id="nav_bar">
+            <li id="logo"><img src="./Resources/logo.png"></li>
+            <li><a href='./index.html'>Home</a></li>
+            <li><a href='#'>Equine</a></li>
+            <li><a href='./sports.html'>Sports</a></ll>
+            <li><a href='./weddings.html'>Weddings</a></li>
+            <li><a href='#footer'>Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Navigation for mobile browsers-->
+    <ul id="mobile_nav">
+        <li><a href="javascript:void(0);" class="icon" onclick="revealNav()">
+            <i class="fa fa-bars"></i><span>Photos by Asia</span>
+            </a>
+        </li>
+
+        <div id="links">
+            <li><a href='./index.html'>Home</a></li>
+            <li><a href='#'>Equine</a></li>
+            <li><a href='./sports.html'>Sports</a></ll>
+            <li><a href='./weddings.html'>Weddings</a></li>
+            <li><a href='#footer' onclick="hideNav()">Contact</a></li>
+        </div>
+    </ul> 
+
+    <!-- Page Title -->
+
+    <header>
+        <h1>Equine</h1>
+    </header>
+
+    <!-- About the gallery to be viewed-->
+
+    <body oncontextmenu="return false">
+        <div class="about">
+            <p>
+                The connection shared between a rider and their horse is genuinely unique and heartfelt. 
+                I comprehend this deeply, having been immersed in the world of horse riding since the age 
+                of 8 and being fortunate enough to have my own horse for over 11 years. <br><br>
+                My aim is to capture the enchanting moments of connection between you and your horse, 
+                preserving them for eternity. Safety is my utmost concern during our photoshoots, 
+                ensuring both you and your equine companion are secure. <br><br>
+                With my experience as both an equestrian and a photographer, 
+                I'm well-equipped to understand your vision and bring it to life. 
+                If you're wishing for dreamy equine photos, please reach out.<br><br>
+                Let's create timeless memories together!
+                <br><br>
+                <a class="contact" href="#pricing">Find out more</a>
+            </p>
+        </div>
+    
+    <!-- Columns of images for the gallery divided into sections -->
+    
+    <div class="row">
+        <div class="column">
+            <img class="images" src="./Resources/Equine/3.jpg">
+            <img class="images" src="./Resources/Equine/11.jpg">
+        </div>
+        <div class="column">
+            <img src="./Resources/Equine/DSC02990-Edit2.jpg">
+            <img src="./Resources/Equine/DSC02904-Edit-Edit.jpg">
+        </div>
+        <div class="column">
+            <img src="./Resources/Equine/DSC02944-2.jpg">
+            <img src="./Resources/Equine/DSC02840-2.jpg">
+        </div>
+        <div class="column">
+            <img src="./Resources/Equine/5.jpg">
+            <img src="./Resources/Equine/1-2.jpg">
+            <!-- <img src="./Resources/Equine/2.jpg"> -->
+        </div>
+    </div>
+
+    <!-- Prices and contact me section -->
+
+    <h2>Pricing</h2>
+
+    <div id="pricing">
+        <div class="packages" id="package1">
+            <h3>Package 1 - &pound60</h3>
+            <ul>
+                <li>90 minute photoshoot</li>
+                <li>Shoot at the stable/yard*</li>
+                <li>Horse & rider portraits</li>
+                <li>Arena/hack shots</li>
+                <li>6+ high resolution images **</li>
+            </ul>
+        </div>
+        <div class="packages" id="package2">
+            <h3>Package 2 - &pound90</h3>
+            <ul>
+                <li>150 minute photoshoot</li>
+                <li>Shoot at your chosen location*</li>
+                <li>Horse & rider portraits</li>
+                <li>Themed portraits</li>
+                <li>Can be shared with other riders and horses (up to 5)</li>
+                <li>12+ high resolution photos **</li>
+            </ul>
+        </div>
+    </div>
+    <div class="notes">
+        <ul>
+            <li>*Session fee includes up to 15 miles of travel from NP10 Newport. 
+                Additonal mileage may be charged.
+            </li>
+            <li>**Option to purchase more photos.</li>
+        </ul>
+        <h3>Not sure which option is right for you? Get in touch to create a custom package!</h3>
+    </div>
+
+    <div id="footer">
+        <h3>Let's connect!</h3>
+        <p>
+            Drop me an email with your query and I'll get back to you as soon as poosible.
+            <br><br>
+            <a href="mailto:info@photosbyasia.com">info@photosbyasia.com</a>
+        </p>
+        <p>Alternatively, connect with me on Social Media</p>
+        <div class="socials">
+            <a href="https://www.facebook.com/people/Asia-Wozniewska/100093083481595/" target="_blank"><img src="./Resources/facebook.png"></a>
+            <a href="https://instagram.com/asia.wozniewska?igshid=MzRIODBiNWFIZA==" target="_blank"><img src="./Resources/insta.png"></a>
+        </div>
+        <p>&copy 2023 Photos by Asia Wozneiwska</p>
+    </div>
+    
+    <script src="./Scripts/album.js"></script>
+
+</html>
