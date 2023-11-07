@@ -21,7 +21,7 @@
 #headline {
     display: grid;
     grid-area: 1 / 1 / span 6 / span 19;
-    background-image: url(../Resources/DSC02990-Edit-Edit.jpg);
+    background-image: url(https://d11xb5zxl7abuq.cloudfront.net/images/home/DSC02990-Edit-Edit.jpg);
     background-position: center;
     background-size: cover;
     opacity: 0.9;
