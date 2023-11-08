@@ -69,5 +69,3 @@ function getOS() {
         }
 
 }
-
-console.log(getOS())

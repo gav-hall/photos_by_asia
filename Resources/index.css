@@ -13,14 +13,13 @@
 
 .grid {
     display: grid;
-    grid-template: repeat(32 1fr) / repeat(19 1fr);
 }
 
 /* Headline picture and headline title */
 
 #headline {
     display: grid;
-    grid-area: 1 / 1 / span 6 / span 19;
+    grid-area: 1 / 1 / span 6 / span 11;
     background-image: url(https://d11xb5zxl7abuq.cloudfront.net/images/home/DSC02990-Edit-Edit.jpg);
     background-position: center;
     background-size: cover;
@@ -82,7 +81,7 @@
 
 #welcome_image {
     display: grid;
-    grid-area: 8 / 5 / span 6 / span 15;
+    grid-area: 8 / 5 / span 6 / span 5;
 }
 
 #welcome_image img {
@@ -93,7 +92,7 @@
 
 #about_me_image {
     display: grid;
-    grid-area: 16 / 2 / span 6 / span 5;
+    grid-area: 16 / 1 / span 6 / span 5;
     align-self: center;
     margin-top: 30px;
 }
@@ -105,7 +104,7 @@
 
 #about_me_text {
     display: grid;
-    grid-area: 16 / 7 / span 6 / span 12;
+    grid-area: 16 / 6 / span 6 / span 5;
 }
 
 #about_me_text h2 {
@@ -127,7 +126,7 @@
 
 #gallery_title {
     display: grid;
-    grid-area: 23 / 1 / span 1 / span 19;
+    grid-area: 23 / 1 / span 1 / span 11;
     align-content: stretch;
 }
 
@@ -141,17 +140,17 @@
 }
 
 #wedding {
-    grid-area: 25 / 1 / span 6 / span 5;
+    grid-area: 25 / 1 / span 6 / span 4;
     align-items: center;
 }
 
 #sports_image {
-    grid-area: 25 / 13 / span 6 / span 5;
+    grid-area: 25 / 6 / span 6 / span 4;
     align-items: center;
 }
 
 #equine {
-    grid-area: 33 / 1 / span 6 / span 5;
+    grid-area: 33 / 1 / span 6 / span 4;
     align-items: center;
 }
 
@@ -164,15 +163,15 @@
 }
 
 #wedding_title {
-    grid-area: 32 / 1 / span 1 / span 5;
+    grid-area: 32 / 1 / span 1 / span 4;
 }
 
 #sports_title {
-    grid-area: 32 / 13 / span 1 / span 5;
+    grid-area: 32 / 6 / span 1 / span 4;
 }
 
 #equine_title {
-    grid-area: 39 / 1 / span 1 / span 5;
+    grid-area: 39 / 1 / span 1 / span 4;
 }
 
 @media screen and (max-width: 600px) {
