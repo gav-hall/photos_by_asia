@@ -19,7 +19,7 @@
 
 #headline {
     display: grid;
-    grid-area: 1 / 1 / span 6 / span 11;
+    grid-area: 1 / 1 / span 6 / span 10;
     background-image: url(https://d11xb5zxl7abuq.cloudfront.net/images/home/DSC02990-Edit-Edit.jpg);
     background-position: center;
     background-size: cover;
@@ -92,7 +92,7 @@
 
 #about_me_image {
     display: grid;
-    grid-area: 16 / 1 / span 6 / span 5;
+    grid-area: 16 / 1 / span 5 / span 4;
     align-self: center;
     margin-top: 30px;
 }
@@ -104,7 +104,7 @@
 
 #about_me_text {
     display: grid;
-    grid-area: 16 / 6 / span 6 / span 5;
+    grid-area: 16 / 5 / span 6 / span 5;
 }
 
 #about_me_text h2 {
