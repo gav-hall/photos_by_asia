@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^23122023$ 23122023.html[R=301]
