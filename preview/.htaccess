@@ -1,2 +1,6 @@
 RewriteEngine On
+<<<<<<< HEAD
 RewriteRule ^12042024$ 12042024.html[R=301]
+=======
+RewriteRule ^12022024$ 12022024.html[R=301]
+>>>>>>> d0446359599e7817f6710c59bab20dd74873259b
