@@ -1,3 +1,2 @@
 RewriteEngine On
-RewriteRule ^12022024$ 12022024.html[L,R=301]
-RewriteRule ^24022024$ 24022024.html[L,R=301]
+RewriteRule ^12022024$ 12022024.html[R=301]
