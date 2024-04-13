@@ -122,6 +122,7 @@ header h1 {
     border: 2px double black;
     padding-left: 2%;
     padding-right: 2%;
+    justify-content: center
 }
 
 .about, .contact, p {
@@ -178,6 +179,11 @@ header h1 {
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
+}
+
+.column .wedding-previews {
+    flex: 33%;
+    max-width: 33%;
 }
 
 img {
@@ -257,6 +263,7 @@ img {
     flex-direction: column;
     background-color: #7d807e;
     max-width: 100%;
+    margin-top: 20px;
 }
 
 #footer h3 {
